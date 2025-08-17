@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wadeas Geburtstag</title>
+    <style>
+        html {
+            background-color: #03030a;
+            color:rgb(244, 167, 52);
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #title {
+            color: rgb(225, 146, 249);
+            text-align: center;
+        } 
+
+        #wann > h2, #wo > h2, #was > h2, h3 {
+            color: rgb(63, 239, 101);
+        }
+
+        #hinweis {
+            color: rgb(63, 239, 101);
+        } 
+
+        img {
+            max-width: 600px; max-height: 250px;
+            border: 2px solid rgb(63, 239, 101);
+            border-radius: 50%;
+        }
+
+        .mitbringen, .maps {
+            color: rgb(53, 212, 226);
+        }
+
+        #wann, #wo, #was {
+            margin-bottom: 35px;
+        }
+        
+        span {font-weight: bolder;}
+
+        h3 {
+            font-size: small;
+            margin-left: 10px;
+        }
+
+        #was > h2, h3 {
+            display: inline-block;
+        }
+
+        @media (max-width: 600px) {
+            img {
+                max-width: 450px; max-height: 270px;
+                display: block;
+                margin: auto;
+                width: 50%;
+            }
+            h1, #title h2 {
+                font-size: 14pt;
+            }
+            #wann, #wo, #was {
+                font-size: small;
+            }
+            #hinweis {
+                font-size: x-small;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h1>Gute Gespräche & mehr: Mein 34. Geburtstag steht an</h1>
+        <h2>Am Montag, den 28.07.2025 </h2>
+        <img src="./assets/images/333333.png" alt="Geburtstags Einladung">
+    </div>
+
+    <div id="wann">
+        <h2>Wann?</h2>
+        <p>Am Montag, <span>28.07.2025 ab 18:30 Uhr</span></p>
+    </div>
+
+    <div id="wo">
+        <h2>Wo?</h2>
+        <p>In den Bayerisch-Schwaben</p>
+        <a href="https://www.google.com/maps/place/Schwaben/@48.2739802,9.1566286,8.74z/data=!4m6!3m5!1s0x479c07286fd88e5f:0x33990a7db389256a!8m2!3d48.3814671!4d10.7008406!16zL20vMGR6NW4?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" class="maps">google maps</a>
+    </div>
+
+    <div id="was">
+        <h2>Was mitzubringen?</h2><h3> (Blaue Wörter antippen)</h3>
+
+        <ul>
+            <li><a href="./assets/images/Freude.gif" class="mitbringen">Freude</a></li>
+            <li><a href="./assets/images/Appetit.gif" class="mitbringen">Appetit</a></li>
+            <li><a href="./assets/images/smile.gif" class="mitbringen">Lächeln</a></li>
+        </ul>
+        
+    </div>
+    
+    <div id="hinweis">
+        <p>Bitte um Rückmeldung</p>
+    </div>
+
+
+</body>
+</html>
